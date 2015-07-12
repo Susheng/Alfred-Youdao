@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>youdao.susheng</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>6EC7A264-E4D8-47BB-B855-2A2211C84A0E</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>Susheng</string>
+	<key>description</key>
+	<string>translation service from youdao</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>youdao</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>dd</string>
+				<key>script</key>
+				<string>python ./youdao.py "{query}"</string>
+				<key>subtext</key>
+				<string>mua~</string>
+				<key>title</key>
+				<string>What to ask?</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6EC7A264-E4D8-47BB-B855-2A2211C84A0E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>6EC7A264-E4D8-47BB-B855-2A2211C84A0E</key>
+		<dict>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://susheng.github.io</string>
+</dict>
+</plist>
