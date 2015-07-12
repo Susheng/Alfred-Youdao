@@ -4,12 +4,12 @@ import requests
 import sys
 
 err_dict = {
-            20: 'word is too long.',
-            30: 'unable to translate.',
-            40: 'language is not supported.',
-            50: 'key is invalid.',
-            60: 'no result found'
-        }
+    20: 'word is too long.',
+    30: 'unable to translate.',
+    40: 'language is not supported.',
+    50: 'key is invalid.',
+    60: 'no result found'
+}
 
 url_config_dict = {
     "keyfrom": "Susheng",
