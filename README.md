@@ -3,5 +3,9 @@
 
 
 ![alt text](https://github.com/Susheng/Alfred-Youdao/blob/master/example.png?raw=true "Usage example")
+## Download
+### [youdao.alfredworkflow](https://github.com/Susheng/Alfred-Youdao/blob/master/youdao.alfredworkflow?raw=true)
+
+---
 
 ##Have fun!
